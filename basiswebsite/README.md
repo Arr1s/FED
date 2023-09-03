@@ -36,12 +36,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <a scr="https://www.hltv.org/"></a>
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  HLTV.org  
-  <img src="./images/"  width="375px" alt="omschrijving van de pagina">
+  <p>HLTV.org</p>  
+  <img src="./images/"  width="375px" alt="Veel info, een taakbalk boven aan de site, info in rijen aan zowel de zijkant als in het midden.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <p>Youtube</p>
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Veel video's, maar ook een taakbalk aan de rechtkant en meerdere opties als zoekfunctie, account, setting, etc.">
  
 </details>
 
