@@ -33,16 +33,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  <a scr="https://www.hltv.org/"></a>
+  <a scr="https://www.ubisoft.com/en-gb/game/rainbow-six/siege"></a>
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  <p>HLTV.org</p>  
-  <img src="./images/"  width="375px" alt="Veel info, een taakbalk boven aan de site, info in rijen aan zowel de zijkant als in het midden.">
+  <p>R6 homepage</p>  
+  <img scr="" width="375px" alt="Veel verschillende mogelijkheden waar meerdere variable gebruikt kunnen worden. Zie veel potentie op verbetering.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  <p>Youtube</p>
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Veel video's, maar ook een taakbalk aan de rechtkant en meerdere opties als zoekfunctie, account, setting, etc.">
- 
+  <p>Esports page</p>
+  <img src="" width="375px" alt="Een agenda, meerdere mogelijkheden voor verbetering">
+
 </details>
 
 
