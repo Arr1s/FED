@@ -29,3 +29,6 @@
 
 /* jouw code */
 
+.header ul li {
+	text-decoration: none;
+}
