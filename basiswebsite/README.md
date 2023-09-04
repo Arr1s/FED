@@ -36,7 +36,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <a scr="https://www.ubisoft.com/en-gb/game/rainbow-six/siege"></a>
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  <p>R6 homepage</p>  
+  <p>R6 homepage</p> 
+  <img scr="./images/R6_homepage.png/"> 
   
 
   #### Screenshot(s) van de tweede pagina (small screen):
