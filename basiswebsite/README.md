@@ -37,11 +37,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   <p>R6 homepage</p>  
-  <img scr="" width="375px" alt="Veel verschillende mogelijkheden waar meerdere variable gebruikt kunnen worden. Zie veel potentie op verbetering.">
+  
 
   #### Screenshot(s) van de tweede pagina (small screen):
   <p>Esports page</p>
-  <img src="" width="375px" alt="Een agenda, meerdere mogelijkheden voor verbetering">
+
 
 </details>
 
