@@ -4,7 +4,10 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
-
+* {
+	padding: 0;
+	margin: 0;
+}
 
 
 
@@ -19,9 +22,7 @@
 	--color-background:#eee;
 }
 
-.p {
-	color: red;
-}
+
 /****************/
 /* JOUW STYLING */
 /****************/
@@ -29,6 +30,26 @@
 /* jouw code */
 
 
-.header ul li a {
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	background-color: dimgray;
+	list-style: none;
+	padding: 1.5em;
+}
+
+header ul li a {
 	text-decoration: none;
+	margin: 0.5em;
+	padding: 0;
+	color: white;
+	font-weight: bold;
+}
+
+header ul li a:hover {
+	border-bottom: solid;
+	border-color: blue;
+	padding: 1em;
+	background-color: aqua;
 }
