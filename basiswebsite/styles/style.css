@@ -19,15 +19,15 @@
 	--color-background:#eee;
 }
 
-
-
-
-
+.p {
+	color: red;
+}
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
+
 
 .header ul li a {
 	text-decoration: none;
