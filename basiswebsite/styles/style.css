@@ -7,7 +7,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
@@ -29,13 +29,20 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+/* navigatie */
+
 header ul {
-	display: grid;
+	display: flex;
+	/* het is flexibele content dat niet een vast grid volgt, daarom is Flexbox een betere optie */
 }
 
+header img {
+	height: 1.3em;
+	width: 110%s;
+}
+/* Eerste navigatie bar */
+
 header ul:nth-of-type(1) {
-	grid-template-columns: repeat(10, 2fr);
 	background-color: black;
 	list-style: none;
 	padding: 1em;
@@ -43,42 +50,33 @@ header ul:nth-of-type(1) {
 	justify-self: center;
 }
 
+/* Tweede navigatie bar */
+
 header ul:nth-of-type(2) {
 	background-color: dimgray;
 	list-style: none;
 	padding: 1.5em;
 	font-size: small;
-	grid-template-columns: repeat(10, 1fr);
-	justify-self: start;
-}
-
-nav ul:first-of-type li:first-of-type {
-	grid-column: span 2;
-}
-
-nav ul:first-of-type li:last-of-type {
-	grid-column-start: 11;
-	grid-column-end: 10;
-}
-
-nav ul:last-of-type li:last-of-type {
-	grid-column-start: 11;
-	grid-column-end: 12;
 }
 
 header ul li a {
 	text-decoration: none;
-	padding: 1.2em;
+	padding: 1.5em;
 	color: white;
 	font-weight: bold;
 	font-style: normal;
 	transition: 0.2s;
 }
 
+ul:last-of-type li:last-of-type {
+	margin-left: auto;
+}
+
 header ul li a:hover {
 	border-bottom: solid 0.3em;
 	border-color: rgb(108, 198, 198);
-	background-color: var(--color-hover)
+	background-color: var(--color-hover);
+	padding: 1.5em;
 }
 
 .background-video {
@@ -96,12 +94,22 @@ h1 {
 }
 
 section {
+	display: grid;
+	grid-template-columns: 40% 40%;
+}
+
+article {
 	background-color: var(--color-background);
 	opacity: 90%;
-	margin-top: 3em;
-	margin-left: 3em;
 	padding: 2em;
-	margin-right: 3em;
+	margin: 5em 2em 3em 3em;
+}
+
+section:first-of-type article:last-of-type {
+	background-image: url();
+	margin-right: 0;
+	margin-left: auto;
+	grid-column-start: 4;
 }
 
 
@@ -113,10 +121,16 @@ section h2, a {
 
 section h2 {
 	margin-bottom: 1em;
-	font-size: 200%;
+	font-size: 300%;
+	font-weight: 400;
 }
 
-section a {
+article p {
+	padding-bottom: 15px;
+	font-weight: light;
+}
+
+article a {
 	background-color: var(--color-hover);
 	color: black;
 	padding: 0.5em 1em;
