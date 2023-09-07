@@ -54,7 +54,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Eerste notities:
+  - Hij leest erg snel voor
+  - H2 was slecht afgewerkt (kwam na elkaar), kan verwarrend zijn 
+  - D’r is a h1 die ik niet kan zien -> voor goed ziende tekst weglaten die er wel is 	
+  - Images zijn slecht beschreven 
+  - Datum werd eerst voorgelezen voor titel (is dit beter of niet?) 
 
 </details>
 
