@@ -30,25 +30,40 @@
 /****************/
 
 /* jouw code */
-
 header ul {
-	display: flex;
-	flex-direction: row;
-	justify-content: left;
+	display: grid;
+}
+
+header ul:nth-of-type(1) {
+	grid-template-columns: repeat(10, 2fr);
 	background-color: black;
 	list-style: none;
 	padding: 1em;
 	font-size: small;
+	justify-self: center;
 }
 
 header ul:nth-of-type(2) {
-	display: flex;
-	flex-direction: row;
-	justify-content: left;
 	background-color: dimgray;
 	list-style: none;
 	padding: 1.5em;
-	font-size: medium;
+	font-size: small;
+	grid-template-columns: repeat(10, 1fr);
+	justify-self: start;
+}
+
+nav ul:first-of-type li:first-of-type {
+	grid-column: span 2;
+}
+
+nav ul:first-of-type li:last-of-type {
+	grid-column-start: 11;
+	grid-column-end: 10;
+}
+
+nav ul:last-of-type li:last-of-type {
+	grid-column-start: 11;
+	grid-column-end: 12;
 }
 
 header ul li a {
