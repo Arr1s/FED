@@ -7,7 +7,8 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 
@@ -30,6 +31,10 @@
 /* JOUW STYLING */
 /****************/
 
+body {
+	background-image:url(https://static-dm.ubisoft.com/siege/prod/7907369fa863844fc1ae432a9ca0e610.jpg)
+}
+
 /* navigatie */
 
 header ul {
@@ -40,6 +45,7 @@ header ul {
 header img {
 	height: 1.3em;
 	width: 110%s;
+	background: transparent;
 }
 /* Eerste navigatie bar */
 
@@ -94,6 +100,8 @@ h1 {
 	color: transparent;
 }
 
+/* Eerste Sectie */
+
 section {
 	display: grid;
 	grid-template-columns: 40% 40%;
@@ -107,13 +115,12 @@ article {
 }
 
 section:first-of-type article:last-of-type {
-	background-image: url();
+	background-image: url(../images/R6_mobile.jpeg);
+	background-repeat: no-repeat;
 	margin-right: 0;
 	margin-left: auto;
 	grid-column-start: 4;
 }
-
-
 
 section h2, a {
 	text-transform: uppercase;
@@ -139,26 +146,18 @@ article a {
 	transition: 0.2s;
 }
 
-div {
-	display: flex;
-}
-
 section a:hover {
 	border-bottom: solid 5px;
 	border-color: rgb(108, 198, 198);
 	
 }
 
-section:last-of-type {
-	background-color: transparent;
-	color: white;
-	opacity: 1;
-	text-align: center;
-	padding: 0;
-	margin: 0;
+/* Tweede sectie */
+section:nth-of-type(2) {
+	grid-template-columns: 1fr 1fr;
 }
 
-section ul li {
+article ul li {
 	margin: 1.5em;
 	list-style: none;
 }
