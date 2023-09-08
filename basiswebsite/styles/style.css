@@ -57,6 +57,12 @@ header ul:nth-of-type(1) {
 	justify-self: center;
 }
 
+header ul:nth-of-type(1) li a:hover {
+	background-color: white;
+	color: black;
+	padding: 1em;
+}
+
 /* Tweede navigatie bar */
 
 header ul:nth-of-type(2) {
@@ -113,14 +119,6 @@ article {
 	margin: 5em 2em 3em 3em;
 }
 
-section:first-of-type article:last-of-type {
-	background-image: url(../images/R6_mobile.jpeg);
-	background-repeat: no-repeat;
-	margin-right: 0;
-	margin-left: auto;
-	grid-column-start: 4;
-}
-
 section h2, a {
 	text-transform: uppercase;
 	font-style: italic;
@@ -151,9 +149,34 @@ section a:hover {
 	
 }
 
+/* Rainbow Six Siege mobile */
+
+section:first-of-type article:last-of-type {
+	display: grid;
+	grid-template-rows: 15%;
+	margin-right: 0;
+	margin-left: auto;
+	padding: 0;
+}
+
+section:first-of-type article:last-of-type h2 {
+	grid-row-start: 1;
+	background-color: white;
+	font-size: 100%;
+	font-weight: 100;
+	padding: 1em;
+}
+section:first-of-type article:last-of-type img {
+	grid-row: 1/5;
+}
+
 /* Tweede sectie */
 section:nth-of-type(2) article:nth-of-type(1) {
 	background-color: transparent;
+}
+
+section:nth-of-type(2) article:nth-of-type(1) h3, p{
+	background-color: var(--color-background)
 }
 
 section:nth-of-type(2) {
