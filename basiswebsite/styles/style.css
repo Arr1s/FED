@@ -92,7 +92,6 @@ header ul li a:hover {
 	object-fit: cover;
 	position: absolute;
 	top: 0;
-
 	z-index: -1;
 }
 
@@ -166,24 +165,21 @@ article ul li {
 	list-style: none;
 }
 
-figure {
-	display: flex;
-	background-color: var(--color-background);
-}
 
 figure img {
-	width: 50%;
+	width: 100%;
 	height: auto;
 }
-
-figure h3 {
-	color: black;
+section:nth-of-type(2) h2 {
+	color: white;
 	font-style: italic;
 	font-weight: 100;
+	text-align: center;
 }
 
 figure p:first-of-type {
 	background-color: black;
+	color: white;
 }
 
 figcaption {
