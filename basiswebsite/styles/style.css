@@ -11,10 +11,6 @@
 
 }
 
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -23,6 +19,7 @@
 	--color-text:#111;
 	--color-background: darkgray;
 	--color-hover: dodgerblue; 
+	--background-nav: rgb(36, 38, 42); 
 }
 
 
@@ -35,7 +32,19 @@ body {
 	background-image:url(https://static-dm.ubisoft.com/siege/prod/7907369fa863844fc1ae432a9ca0e610.jpg)
 }
 
+@font-face { font-family: RainBow; src: url('fonts/Rainbow.TTF'); } 
+      h2, h3, h4, a {
+         font-family: RainBow;
+		 font-size: 1rem;
+		 letter-spacing: 1px;
+		 line-height: center;
+      }
+
 /* navigatie */
+
+nav, a {
+	cursor: pointer;
+}
 
 header ul {
 	display: flex;
@@ -66,7 +75,7 @@ header ul:nth-of-type(1) li a:hover {
 /* Tweede navigatie bar */
 
 header ul:nth-of-type(2) {
-	background-color: dimgray;
+	background-color: var(--background-nav);
 	list-style: none;
 	padding: 1.5em;
 	font-size: small;
@@ -122,16 +131,18 @@ article {
 section h2, a {
 	text-transform: uppercase;
 	font-style: italic;
+	font-size: 24px;
+	padding: 13px 25px 11px;
 }
 
 section h2 {
-	margin-bottom: 1em;
-	font-size: 300%;
-	font-weight: 400;
+	margin-bottom: 0.1em;
+	font-size: 500%;
+	font-weight:lighter;
 }
 
 article p {
-	padding-bottom: 15px;
+	padding-bottom: 1.5em;
 	font-weight: light;
 }
 
@@ -207,4 +218,50 @@ figure p:first-of-type {
 
 figcaption {
 	text-align: center;
+}
+
+/* footer */
+
+footer section {
+	background-color: black;
+	color: white;
+	display: contents;
+}
+
+footer article:nth-of-type(1) {
+	margin: 0;
+	text-align: center;
+	background-color: black;
+	padding: 15px 0;
+	font-size: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+footer h2 {
+	justify-content: start;
+}
+
+footer article:nth-of-type(1) ul {
+	display: flex;
+}
+
+footer img {
+	width: auto;
+	height: 31px;
+	margin: 0 6px;
+}
+
+footer article:nth-of-type(2) {
+	background-color: var(--background-nav)
+}
+
+footer a {
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+}
+
+footer a:hover {
+	border: none;
 }
