@@ -78,15 +78,15 @@ header ul:nth-of-type(2) {
 	background-color: var(--background-nav);
 	list-style: none;
 	padding: 1.5em;
-	font-size: small;
 }
 
 header ul li a {
 	text-decoration: none;
 	padding: 1.5em;
 	color: white;
-	font-weight: bold;
-	font-style: normal;
+	font-weight: lighter;
+	font-style:normal;
+	font-size: medium;
 	transition: 0.2s;
 }
 
@@ -165,9 +165,15 @@ section a:hover {
 section:first-of-type article:last-of-type {
 	display: grid;
 	grid-template-rows: 15%;
-	margin-right: 0;
-	margin-left: auto;
-	padding: 0;
+	/* /* margin-right: 0;
+	margin-left: auto; */
+	padding: 0; 
+	background-image: url(../images/R6_mobile.jpeg);
+	background-size:100%;
+	background-color: transparent;
+	height: auto;
+	background-repeat: no-repeat;
+	grid-gap: 7em;
 }
 
 section:first-of-type article:last-of-type h2 {
@@ -176,18 +182,27 @@ section:first-of-type article:last-of-type h2 {
 	font-size: 100%;
 	font-weight: 100;
 	padding: 1em;
+	text-align: center;
+	opacity: 0.9;
 }
-section:first-of-type article:last-of-type img {
-	grid-row: 1/5;
+
+section:first-of-type article:last-of-type a {
+	width: max-content;
+	height: max-content;
+	justify-self: center;
 }
 
 /* Tweede sectie */
-section:nth-of-type(2) article:nth-of-type(1) {
+section:nth-of-type(2) article {
 	background-color: transparent;
 }
 
-section:nth-of-type(2) article:nth-of-type(1) h3, p{
-	background-color: var(--color-background)
+section:nth-of-type(2) article:nth-of-type(1) h3 {
+	background-color: var(--color-background);
+	color:var(--color-text);
+	padding-bottom: 1em;
+	margin: 0;
+	font-size: 30px;
 }
 
 section:nth-of-type(2) {
@@ -199,6 +214,10 @@ article ul li {
 	list-style: none;
 }
 
+section:nth-of-type(2) article:nth-of-type(1) {
+	background-color: transparent;
+	color: var(--color-text)
+}
 
 figure img {
 	width: 100%;
@@ -211,13 +230,45 @@ section:nth-of-type(2) h2 {
 	text-align: center;
 }
 
+main section:nth-of-type(2) article:nth-of-type(1) figure p:first-of-type {
+	background-color: var(--color-background);
+	color: var(--color-text);
+}
+
 figure p:first-of-type {
 	background-color: black;
 	color: white;
 }
 
 figcaption {
-	text-align: center;
+	text-align: start;
+	margin: 0;
+	padding: 30px;
+	background-color: var(--color-background);
+}
+
+
+
+/* New Operator/Last Section */
+
+main section:last-of-type {
+	background-image: url(../images/Operator_Background.png);
+	background-size: cover;
+	width: 100%;
+	height: 52vh;
+	justify-content: center;
+	margin: 0;
+}
+
+main section:last-of-type article {
+	color: white;
+	background-color: transparent;
+}
+
+main section:last-of-type img {
+	width: 100%;
+	height: auto;
+	position: relative;
 }
 
 /* footer */
@@ -238,13 +289,16 @@ footer article:nth-of-type(1) {
 	justify-content: center;
 }
 
-footer h2 {
-	justify-content: start;
-}
-
 footer article:nth-of-type(1) ul {
 	display: flex;
 }
+
+footer article:nth-of-type(1) h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: none;
+	font-style: normal;
+}
+
 
 footer img {
 	width: auto;
