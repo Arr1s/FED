@@ -56,9 +56,13 @@ header img {
 	width: 110%s;
 	background: transparent;
 }
+
+header a {
+	background-color: transparent;
+}
 /* Eerste navigatie bar */
 
-header ul:nth-of-type(1) {
+header nav ul:nth-of-type(1) {
 	background-color: black;
 	list-style: none;
 	padding: 1em;
@@ -90,9 +94,15 @@ header ul li a {
 	transition: 0.2s;
 }
 
+ul:last-of-type li:last-of-type a {
+	margin-left: auto;
+	background-color: rgb(64, 110, 195);
+}
+
 ul:last-of-type li:last-of-type {
 	margin-left: auto;
 }
+
 
 header ul li a:hover {
 	border-bottom: solid 0.3em;
@@ -168,12 +178,11 @@ section:first-of-type article:last-of-type {
 	/* /* margin-right: 0;
 	margin-left: auto; */
 	padding: 0; 
-	background-image: url(../images/R6_mobile.jpeg);
+	background-image: url(../images/R6_mobile.webp);
 	background-size:100%;
 	background-color: transparent;
 	height: auto;
 	background-repeat: no-repeat;
-	grid-gap: 7em;
 }
 
 section:first-of-type article:last-of-type h2 {
@@ -190,12 +199,33 @@ section:first-of-type article:last-of-type a {
 	width: max-content;
 	height: max-content;
 	justify-self: center;
+	align-self: center;
 }
 
 /* Tweede sectie */
-section:nth-of-type(2) article {
-	background-color: transparent;
+/* GLobal */
+
+section:nth-of-type(2) {
+	grid-template-columns: 1fr 1fr;
 }
+
+section:nth-of-type(2) article {
+	background-color: transparent;	
+}
+
+section:nth-of-type(2) h2 {
+	color: white;
+	font-style: italic;
+	font-weight: 100;
+	text-align: center;
+}
+
+figure img {
+	width: 100%;
+	height: auto;
+}
+
+/* Highlights */
 
 section:nth-of-type(2) article:nth-of-type(1) h3 {
 	background-color: var(--color-background);
@@ -205,29 +235,9 @@ section:nth-of-type(2) article:nth-of-type(1) h3 {
 	font-size: 30px;
 }
 
-section:nth-of-type(2) {
-	grid-template-columns: 1fr 1fr;
-}
-
-article ul li {
-	margin: 1.5em;
-	list-style: none;
-}
-
 section:nth-of-type(2) article:nth-of-type(1) {
 	background-color: transparent;
 	color: var(--color-text)
-}
-
-figure img {
-	width: 100%;
-	height: auto;
-}
-section:nth-of-type(2) h2 {
-	color: white;
-	font-style: italic;
-	font-weight: 100;
-	text-align: center;
 }
 
 main section:nth-of-type(2) article:nth-of-type(1) figure p:first-of-type {
@@ -247,7 +257,30 @@ figcaption {
 	background-color: var(--color-background);
 }
 
+/* Latest News */
 
+article ul li {
+	margin: 1.5em;
+	list-style: none;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) li {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: repeat(4 25%);
+}
+
+section:nth-of-type(2) article:nth-of-type(2) img {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	width: 100%;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) h3, a, p {
+	background-color: var(--color-background);
+}
 
 /* New Operator/Last Section */
 
