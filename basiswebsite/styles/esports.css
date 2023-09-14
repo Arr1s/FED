@@ -1,0 +1,97 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* 
+@font-face { font-family: RainBow; src: url('fonts/Rainbow.TTF'); } 
+      h2, h3, h4, a {
+         font-family: RainBow;
+		 font-size: 30px;
+		 letter-spacing: 1px;
+
+		 font-weight: 400;
+      } */
+    
+      :root {
+        /* startje */
+        --color-text:#111;
+        --color-background: darkgray;
+        --color-hover: dodgerblue; 
+        --background-nav: rgb(36, 38, 42); 
+    }
+
+      /* navigatie */
+
+nav, a {
+	cursor: pointer;
+	flex-grow: 1;
+}
+
+header ul {
+	display: flex;
+	/* het is flexibele content dat niet een vast grid volgt, daarom is Flexbox een betere optie */
+	flex-wrap: wrap;
+}
+
+header img {
+	height: 1.3em;
+	width: 110%s;
+	background: transparent;
+}
+
+header a {
+	background-color: transparent;
+}
+/* Eerste navigatie bar */
+
+header nav ul {
+	background-color: black;
+	list-style: none;
+	padding: 1em;
+	font-size: small;
+	display: flex;
+	justify-content: center;
+}
+
+header nav ul:nth-of-type(1) li:nth-of-type(1) {
+	margin-right: auto
+}
+
+header ul:nth-of-type(1) li a:hover {
+	background-color: white;
+	color: black;
+	padding: 1em;
+}
+
+header ul li a {
+	text-decoration: none;
+	padding: 1.5em;
+	color: white;
+	font-weight: lighter;
+	font-style:normal;
+	font-size: medium;
+	transition: 0.2s;
+}
+
+header ul li a:hover {
+	border-bottom: solid 0.3em;
+	border-color: rgb(108, 198, 198);
+	background-color: var(--color-hover);
+	padding: 1.5em;
+}
+
+/* Navigation bar 2 */
+
+ul:nth-of-type(2) {
+    justify-content: start;
+    padding: 2em;
+    text-transform: uppercase;
+}
+
+/* body */
+
+h1, h2 {
+	color: transparent;
+}
+
