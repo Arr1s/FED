@@ -95,3 +95,7 @@ h1, h2 {
 	color: transparent;
 }
 
+section:nth-of-type(1) article:nth-of-type(1) {
+	grid-template-columns: 20% 80%;
+	grid-template-rows: 3, 33%;
+}
