@@ -32,16 +32,28 @@ body {
 	background-image:url(https://static-dm.ubisoft.com/siege/prod/7907369fa863844fc1ae432a9ca0e610.jpg)
 }
 
+section articlea:last-of-type {
+	justify-self: center;
+}
+
 @font-face { font-family: RainBow; src: url('fonts/Rainbow.TTF'); } 
       h2, h3, h4, a {
          font-family: RainBow;
 		 font-size: 30px;
 		 letter-spacing: 1px;
-
 		 font-weight: 400;
       }
 
-
+	  @media only screen and (max-width: 1024px) {
+		section:nth-of-type(1), section:nth-of-type(2) {
+			margin: 0;
+			padding: 30px;
+			width: 100%;
+			max-width: 100%;
+			color: blue;
+			display: block;
+		}
+	  }
 
 
 
@@ -56,6 +68,7 @@ header ul {
 	display: flex;
 	/* het is flexibele content dat niet een vast grid volgt, daarom is Flexbox een betere optie */
 	flex-wrap: wrap;
+	width: 100%;
 }
 
 header img {
@@ -148,7 +161,7 @@ h1 {
 
 section {
 	display: grid;
-	grid-template-columns: 40% 60%;
+	grid-template-columns: 40% 27% 30%;
 }
 
 article {
@@ -156,13 +169,13 @@ article {
 	opacity: 90%;
 	padding: 2em;
 	margin: 5em 2em 3em 3em;
+	min-width: 440px;
 }
 
 section h2, a {
 	text-transform: uppercase;
-	font-style: italic;
+	font-style:oblique;
 	font-size: 24px;
-	padding: 13px 25px 11px;
 }
 
 section h2 {
@@ -199,8 +212,10 @@ main section:first-of-type article:last-of-type {
 	background-size:100%;
 	background-color: transparent;
 	background-repeat: no-repeat;
-	border: solid 10px blue;
 	margin-right: 0;
+	position: relative;
+	grid-column-start: 3;
+	align-self: center;
 }
 
 main section:first-of-type article:last-of-type img {
@@ -222,7 +237,7 @@ section:first-of-type article:last-of-type h2 {
 section:first-of-type article:last-of-type a {
 	width: max-content;
 	height: max-content;
-	align-self: center;
+
 	grid-area: 3/2/3/3;
 }
 
@@ -386,6 +401,7 @@ main section:last-of-type a {
 	margin: 8em;
 	text-align: center;
 	align-self: center;
+	width: max-content;
 }
 
 
