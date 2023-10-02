@@ -33,7 +33,7 @@ body {
 	overflow-x: hidden;
 }
 
-section articlea:last-of-type {
+section article:last-of-type {
 	justify-self: center;
 }
 
@@ -111,7 +111,7 @@ section articlea:last-of-type {
 
 	  @media only screen and (max-width: 765px) {
 		h2, h3 {
-			color: blue;
+			/* color: blue; */
 		}
 		main section:nth-of-type(2) article:nth-of-type(2) ul li {
 			display: block;
@@ -228,6 +228,8 @@ header ul:nth-of-type(2) li:hover {
 /* Hamburg menu */
 .hamburg_Menu {
 	visibility: hidden;
+	width: 0;
+	height: 0;
 	display: block;
 	background-color: var(--color-text);
 	padding:1.5em;

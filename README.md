@@ -72,13 +72,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/BreakdownHelePagina.jpeg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="readme-images/BreakdownMenu.jpeg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -158,7 +155,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
   - Niet veel is verbetered 
   - Er zijn enkele vlakken waar ik nog zeer veel moet aan doen zoals "images"
-  - Appereance and toeegankelijkheid zijn nog erg laag
+  - Appereance and toegankelijkheid zijn nog erg laag
 </details>
 
 
@@ -187,10 +184,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - D'r zijn heel veel mogelijkheden voor meer accesibility die ik in de gaten moet houden
+  - Ik persoonijk vind dat ik nog een stuk verder moet werken, waarschijnlijk herkansen zodat ik zelf tevreden kan zijn over mijn werk
+  - Html, CSS beheers ik vrij redelijk, mijn JS daarentegen heb ik vermeden en is veel ruimte voor verbetering over 
 
 </details>
 
@@ -204,19 +200,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/TopScreen.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/MidScreen.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+<p>Ik heb vrij goed met grid leren werken naar mijn mening</p>
+  <img src="readme-images/BreakdownGrid.jpeg" width="375px" alt="Grid breakdown schets">
+  <img src="readme-images/GridFooter.png" width="375px" alt="Een van de meerdere grids, deze keer in de footer">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  <p> Er zijn verschillende dingen die niet gelukt zijn, hierbij een rijtje met foto's:</p>
+  <ul>
+    <li>CSS animatie</li>
+    <li>Hamburger menu</li>
+    <li>2e pagina afmaken</li>
+    <li>Volledig responsive maken</li>
+</ul>
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/CSSAnimatie.png" width="375px" alt="CSS animatie gefaald">
+  <img src="readme-images/HamburgerMenu.png" width="375px" alt="R6 officiele hamburger menu">
+  <img src="readme-images/TweedePagina.png" width="375px" alt="De niet af tweede pagina van mijn site">
+  <img src="readme-images/NietResponsive.png" width="375px" alt="Foute in responsive bij de SE">
 </details>
 
 
