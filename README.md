@@ -20,7 +20,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauw
 
   #### Je focus:
-  Surface plane
+  Responsiveness 
 </details>
 
 
@@ -37,11 +37,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   <p>R6 homepage</p> 
-  <img scr="./images/R6_homepage.png/"> 
+  <img scr="./readme-images/R6_homepage.png/"> 
   
 
   #### Screenshot(s) van de tweede pagina (small screen):
   <p>Esports page</p>
+  <img scr="./readme-images/Esports_page.png/">
 
 
 </details>
@@ -107,10 +108,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - HTML validator 
+  - Twee pagina's 
 
 </details>
 
@@ -139,11 +138,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - CSS animatie proberen
+  - Nog steeds een menu in JS
+  - Meer focus op toegankelijkheid
+  - Tweede pagina meer uitwerken 
 
 </details>
 
@@ -158,7 +156,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  - Niet veel is verbetered 
+  - Er zijn enkele vlakken waar ik nog zeer veel moet aan doen zoals "images"
+  - Appereance and toeegankelijkheid zijn nog erg laag
 </details>
 
 

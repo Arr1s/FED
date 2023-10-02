@@ -29,12 +29,15 @@
 /****************/
 
 body {
-	background-image:url(https://static-dm.ubisoft.com/siege/prod/7907369fa863844fc1ae432a9ca0e610.jpg)
+	background-image:url(https://static-dm.ubisoft.com/siege/prod/7907369fa863844fc1ae432a9ca0e610.jpg);
+	overflow-x: hidden;
 }
 
 section articlea:last-of-type {
 	justify-self: center;
 }
+
+
 
 @font-face { font-family: RainBow; src: url('fonts/Rainbow.TTF'); } 
       h2, h3, h4, a {
@@ -44,26 +47,97 @@ section articlea:last-of-type {
 		 font-weight: 400;
       }
 
-	  @media only screen and (max-width: 1024px) {
-		section:nth-of-type(1), section:nth-of-type(2) {
+@media (prefers-reduced-motion:reduce) {
+	.background-video {
+		display: none;
+	}
+}
+
+@media (prefers-contrast:more) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  /* h1, h2, h3, a, section, article, ul {
+	  color: green;
+	  background-color: yellow;
+  } */
+}
+
+	  @media only screen and (max-width: 1140px) {
+		ul:nth-of-type(2) li {
+			display: none;
+		}
+		ul:nth-of-type(2) li:first-of-type {
+			display:contents;
+		}
+		 section:nth-of-type(1), section:nth-of-type(2) {
 			margin: 0;
-			margin-top: 23em;
+			margin-top: 2em;
 			padding: 0;
 			width: 100%;
 			max-width: 100%;
 			display: block;
+		}
+		main section:nth-of-type(1) article:nth-of-type(1) {
+			margin-top: 23em;
 		}
 		section article {
 			width: 100%;
 			margin: 0;
 
 		}
+		main section:last-of-type img {
+			max-width: 75%;
+		}
 		footer {
 			text-align: center;
+			margin: 0;
+		}
+		footer section:nth-last-of-type() article:nth-of-type(1) ul {
+			margin-top: 0em;
+		}
+		footer section:nth-of-type(1) article:nth-of-type(1) h2 {
+			visibility: hidden;
+			margin: 0;
+			width: 0px;
+			height: 0px;
 		}
 	  }
 
 
+
+
+
+	  @media only screen and (max-width: 765px) {
+		h2, h3 {
+			color: blue;
+		}
+		main section:nth-of-type(2) article:nth-of-type(2) ul li {
+			display: block;
+			text-align: start;
+			margin-bottom: 3em;
+		}
+	  }
+
+.screenreader-only {
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+}
+
+.background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+h1 {
+	color: transparent;
+}
 
 /* navigatie */
 
@@ -77,6 +151,10 @@ header ul {
 	/* het is flexibele content dat niet een vast grid volgt, daarom is Flexbox een betere optie */
 	flex-wrap: wrap;
 	width: 100%;
+	column-gap: 3em;
+	row-gap: 1.5em;
+	align-items: center;
+	line-height: 2.5em;
 }
 
 header img {
@@ -115,21 +193,25 @@ header ul:nth-of-type(2) {
 	background-color: var(--background-nav);
 	list-style: none;
 	padding: 1.5em;
+	column-gap: 3em;
+	row-gap: 1.5em;
 }
 
 header ul li a {
 	text-decoration: none;
-	padding: 1.5em;
 	color: white;
-	font-weight: lighter;
+	font-weight: 100;
 	font-style:normal;
-	font-size: medium;
+	font-size: 1.4em;
 	transition: 0.2s;
 }
 
-header nav ul:last-of-type li:last-of-type a {
-	margin-left: auto;
+header nav ul:nth-of-type(2) li:last-of-type a {
 	background-color: rgb(64, 110, 195);
+}
+
+header nav ul:nth-of-type(2) li:last-of-type {
+	margin-left: auto;
 }
 
 ul:last-of-type li:last-of-type {
@@ -137,29 +219,50 @@ ul:last-of-type li:last-of-type {
 }
 
 
-header ul li a:hover {
+header ul:nth-of-type(2) li:hover {
 	border-bottom: solid 0.3em;
 	border-color: rgb(108, 198, 198);
 	background-color: var(--color-hover);
-	padding: 1.5em;
 }
 
-.background-video {
-	width: 100vw;
-	height: 100vh;
-	object-fit: cover;
-	position: absolute;
-	top: 0;
-	z-index: -1;
+/* Hamburg menu */
+.hamburg_Menu {
+	visibility: hidden;
+	display: block;
+	background-color: var(--color-text);
+	padding:1.5em;
+	list-style: none;
+	font-size: x-large;
+
 }
 
-h1 {
-	color: transparent;
+.visibility {
+	visibility: visible;
 }
 
+.hamburg_Menu li {
+	border-bottom: solid 1px gray;
+}
 
+.hamburg_Menu li:first-of-type a {
+	font-style: italic;
+}
 
+.hamburg_Menu li:first-of-type {
+	padding-bottom: 1em;
+}
 
+.hamburg_Menu li:last-of-type  {
+	background-color: none;
+}
+
+form {
+	margin-top: 2em;
+	border-radius: 2em;
+	background-color: gray;
+	color: white;
+	font-size: small;
+}
 
 
 
@@ -177,7 +280,6 @@ article {
 	opacity: 90%;
 	padding: 2em;
 	margin: 5em 2em 3em 3em;
-	min-width: 440px;
 }
 
 section h2, a {
@@ -369,8 +471,7 @@ main section:nth-of-type(2) article:nth-of-type(2) a:nth-of-type(4) {
 
 main section:last-of-type {
 	background-image: url(../images/Operator_Background.png);
-	/* background-size: cover; */
-	width: 100%;
+	background-size: cover;
 	height: 100vh;
 	grid-template-columns: 100%;
 }
@@ -396,18 +497,18 @@ main section:last-of-type h2{
 
 main section:last-of-type article img {
 	z-index: 0;
-	width: auto;
-	height: 100%;
+	width:auto;
 	margin: 0;
 	grid-area: 1/1/5/5;
 	justify-self: center;
+	align-self: flex-end;
 }
 
 main section:last-of-type a {
-	grid-area: 4/2/4/4;
+	grid-area: 	4/2/4/4;
 	z-index: 1;
-	margin: 8em;
 	text-align: center;
+	justify-self: center;
 	align-self: center;
 	width: max-content;
 }
@@ -475,8 +576,11 @@ footer article:nth-of-type(1) img {
 footer article:nth-of-type(2) {
 	background-color: var(--background-nav);
 	grid-row: 2/4;
-	grid-column: 1/2;
 	margin: 0;
+}
+
+footer article:nth-of-type(2) h2 {
+	font-size: medium;
 }
 
 footer article:nth-of-type(2) ul {
@@ -511,6 +615,7 @@ footer p {
 	text-align: center;
 	font-weight: lighter;
 	font-size: small;
+	z-index: 2;
 }
 
 footer table {
@@ -518,13 +623,13 @@ footer table {
 	width: 100%;
 	text-align: start;
 	margin-bottom: 5em;
+	
 }
 
 footer table th {
 	text-align: start;
 	margin-bottom: 0.5em;
 }
-
 
 footer section article:last-of-type {
 	background-color: black;
