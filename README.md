@@ -17,10 +17,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Laurens Anton Mudde
 
   #### Je startniveau:
-  Blauw
+  Ik begin met het niveau "Blauw" omdat ik niet heel zeker van mezelf ben, maar ik hoop veel progressie te maken
 
   #### Je focus:
-  Responsiveness 
+  Responsiveness is mijn "main" focus, omdat ik denk daar het meeste uit kan halen
 </details>
 
 
@@ -37,12 +37,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   <p>R6 homepage</p> 
-  <img scr="./readme-images/R6_homepage.png/"> 
+  <img scr="readme-images/R6_homepage.png/"> 
   
 
   #### Screenshot(s) van de tweede pagina (small screen):
   <p>Esports page</p>
-  <img scr="./readme-images/Esports_page.png/">
+  <img scr="readme-images/Esports_page.png/">
 
 
 </details>
@@ -89,24 +89,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ Ik heb veel progressie gemaakt met mijn HTML & CSS, het bouwen van de sites met de blokjes ging goed, alleen vermijd ik JS nogal veel, aangezien ik daar minder comfortabel mee ben
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - HTML validator 
-  - Twee pagina's 
+  - Blijf voornamelijk doorgaan
+  - Denk erom om 2 pagina's uit te werken
+  - HTML validatie uitvoeren regelmatig 
 
 </details>
 
@@ -121,17 +110,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -170,19 +148,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  hier na afloop snel de uitkomsten van de meeting vastleggen:
 
   - D'r zijn heel veel mogelijkheden voor meer accesibility die ik in de gaten moet houden
   - Ik persoonijk vind dat ik nog een stuk verder moet werken, waarschijnlijk herkansen zodat ik zelf tevreden kan zijn over mijn werk
@@ -231,15 +198,4 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Bronnenlijst
 
-<details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
-
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
-
-</details>
+<p>Bronnen waren voornamelijk mijn docent... :) </p>
