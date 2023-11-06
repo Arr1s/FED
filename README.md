@@ -198,4 +198,4 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Bronnenlijst
 
-<p>Bronnen waren voornamelijk mijn docent... :) </p>
+<p>Bronnen waren voornamelijk mijn docen, want dat is pas een echte hulpbron... :) </p>
