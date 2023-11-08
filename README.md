@@ -61,9 +61,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - D’r is a h1 die ik niet kan zien -> voor goed ziende tekst weglaten die er wel is 	
   - Images zijn slecht beschreven 
   - Datum werd eerst voorgelezen voor titel (is dit beter of niet?) 
-    <img src="readme-images/Toegankelijkeheids test pagina 1.png width=" width="375px" alt="toegankelijkheidstest pagina 1">
-    <img src="readme-images/Toegankelijkeheids test pagina 2/3.png width=" width="375px" alt="toegankelijkheidstest pagina 2/3">
-    <img src="readme-images/Toegankelijkeheids test pagina 4/5.png width=" width="375px" alt="toegankelijkheidstest pagina 4/5">
+    <img src="readme-images/ToegankelijkeheidsTestPagina_1.png" width="375px" alt="toegankelijkheidstest pagina 1">
+    <img src="readme-images/ToegankelijkeheidsTestPagina_2en3.png" width="375px" alt="toegankelijkheidstest pagina 2/3">
+    <img src="readme-images/ToegankelijkeheidsTestPagina_4en5.png" width="375px" alt="toegankelijkheidstest pagina 4/5">
 </details>
 
 
@@ -136,9 +136,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Niet veel is verbetered 
   - Er zijn enkele vlakken waar ik nog zeer veel moet aan doen zoals "images"
   - Appereance and toegankelijkheid zijn nog erg laag
-    <img src="readme-images/Toegankelijkeheids test pagina 1.png width=" width="375px" alt="toegankelijkheidstest pagina 1">
-    <img src="readme-images/Toegankelijkeheids test pagina 2/3.png width=" width="375px" alt="toegankelijkheidstest pagina 2/3">
-    <img src="readme-images/Toegankelijkeheids test pagina 4/5.png width=" width="375px" alt="toegankelijkheidstest pagina 4/5">
+    <img src="readme-images/ToegankelijkeheidsTestPagina_1.png" width="375px" alt="toegankelijkheidstest pagina 1">
+    <img src="readme-images/ToegankelijkeheidsTestPagina_2en3.png" width="375px" alt="toegankelijkheidstest pagina 2/3">
+    <img src="readme-images/ToegankelijkeheidsTestPagina_4en5.png" width="375px" alt="toegankelijkheidstest pagina 4/5">
 </details>
 
 
