@@ -39,7 +39,7 @@ section article:last-of-type {
 
 
 
-@font-face { font-family: RainBow; src: url('fonts/Rainbow.TTF'); } 
+@font-face { font-family: RainBow; src: url('../fonts/Rainbow-Font/Rainbow.ttf'); } 
       h2, h3, h4, a {
          font-family: RainBow;
 		 font-size: 30px;
